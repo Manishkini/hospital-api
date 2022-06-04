@@ -13,7 +13,7 @@ const JWTStrategy = require('./config/passport-jwt-strategy');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use('/', require());
+app.use('/', require('./routes'));
 
 app.listen(PORT, (err) => {
   if (err) {
