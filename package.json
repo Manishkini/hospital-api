@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.3.5",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "name": "hospital-api",
+  "description": "We’re going to design an API for the doctors of a Hospital which has been allocated by the govt for testing and quarantine + well being of COVID-19 patients",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manishkini/hospital-api.git"
+  },
+  "author": "Manish Kini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manishkini/hospital-api/issues"
+  },
+  "homepage": "https://github.com/Manishkini/hospital-api#readme"
+}
