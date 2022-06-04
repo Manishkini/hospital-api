@@ -10,7 +10,8 @@ const options = {
 
 passport.use(
   new JWTStrategy(options, (payload, done) => {
-    Doctor.findById(payload._id, (err, doctor) => {
+    // no need to get password so not selecting password using second parameter
+    Doctor.findById(payload._id, { password: 0 }, (err, doctor) => {
       if (err) {
         return done(err);
       }

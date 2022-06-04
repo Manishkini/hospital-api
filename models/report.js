@@ -22,6 +22,9 @@ const reportSchema = new mongoose.Schema(
       ],
       required: true,
     },
+    date: {
+      type: Date,
+    },
   },
   {
     timestamps: true,

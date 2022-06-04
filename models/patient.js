@@ -4,7 +4,6 @@ const patientSchema = new mongoose.Schema(
   {
     phoneno: {
       type: Number,
-      max: 10,
       required: true,
     },
     createdBy: {
